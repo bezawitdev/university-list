@@ -1,25 +1,115 @@
-import logo from './logo.svg';
 import './App.css';
+import axios from 'axios';
+import {useState, useEffect} from 'react';
+import UniversityList from './components/UniversityList';
+import Header from './components/Header';
+import Display from './components/Display';
+import NavigationBar from './components/NavigationBar';
+import Layout from './Layout';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return(
+    <div>
+      <NavigationBar />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
+// const [state, setState] = useState([]);
+// const [location, setLocation] = useState("");
+// const [name, setName] = useState("")
+
+// const getInput = (event) => setLocation(event.target.value)
+
+
+ 
+//   const url = `http://universities.hipolabs.com/search?name=university&country=${location}`
+// console.log(state, 'testfirst')
+//   // const singleRender = async() => {
+
+
+
+//   //   async function singleRender(){
+//   // state.map((university) => {
+//   //   let item= university.name
+//   //   console.log(item, 'item')
+//   //   return(
+     
+//   //   <UniversityList uName={item}/>
+//   //  )
+
+      
+//   //   })
+//   // }
+
+
+//   // useEffect(async() => {
+//   //    singleRender()
+//   // },[])
+
+//   const getUniversities = async (event) => {
+//     try {
+//       await axios.get(url).then((response) => {
+//         setState(response.data)
+//         // setName(university.name)
+//         // console.log(response.data, 'universityList')
+        
+//             })
+              
+            
+
+
+//     } catch (error) {
+//       console.log(error, 'error')
+//     }
+    
+    
+//   }
+//   console.log(state, 'state')
+  
+//   // towCalls = e => {
+//   //   this.functionOne(e)
+//   //   this.functionTwo()
+//   // }
+
+ 
+//   return (
+//     <div>
+//       <NavigationBar />
+//     <Header 
+//     getInput={getInput} 
+//     location={location}
+//     getUniversities={getUniversities}
+    
+    
+//     />
+   
+//     <div className="App">
+
+//  {     state.slice(0,9).map((item) => 
+ 
+//  <div className="list">
+//   <div className="list-p">
+//     <Display 
+//     item={item}
+//     web_pages={item.web_pages}/>
+//  {/* <p>{item.name}</p>
+
+//  <a>{item.web_pages}</a> */}
+
+//  {/* <p>{item.web_pages}</p> */}
+//  </div>
+//  </div>
+//  )}
+
+
+
+      
+//     </div>
+//     </div>
+//   );
+// }
+
+// export default App;
