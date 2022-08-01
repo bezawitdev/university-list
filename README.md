@@ -99,3 +99,14 @@ University-Lists Displayed
  
 
  ![Screenshot (132)](https://user-images.githubusercontent.com/62867051/182185597-7101f127-93c1-4d00-acb4-59d4515a5e85.png)
+ 
+ 
+ Mobile Display
+ 
+ 
+![Screenshot (133)](https://user-images.githubusercontent.com/62867051/182187605-c13598fd-ddf4-47a6-9e55-a3bb328aedf7.png)
+
+iPad Display
+
+
+![Screenshot (134)](https://user-images.githubusercontent.com/62867051/182188100-b422cb03-0c3d-49d8-8c80-55ed4408e30e.png)
