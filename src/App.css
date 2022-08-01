@@ -11,6 +11,30 @@
   
 }
 
+.home-page{
+  color:green;
+  font-size: medium;
+  border-radius:16px;
+  background-color:#eee;
+  box-shadow: 0px 2.98256px 7.4564px rgba(17, 77, 2, 0.1);
+  padding: 15px;
+
+ justify-content:center;
+ text-align:center;
+
+}
+
+.error-page{
+ 
+  background-image:url("https://thumbs.dreamstime.com/b/oops-error-web-banner-page-not-found-broken-cracked-shattered-computer-screen-bad-request-vector-graphic-81055665.jpg");
+  
+    /* background-image: url("./components/img-error-page.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+  
+}
+
 .Header{
   
   display: flex;
@@ -97,6 +121,81 @@ nav {
   margin-left:45%;
  justify-content:center;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .App {
+    background-color: green;
+  }
+  .img-sizing{
+    width:100px;
+    height:100px;
+  }
+  .link-sizing{
+    word-wrap: break-word;
+  }
+  .btn-readmore{
+    padding: 10px;
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-left:35%;
+   justify-content:center;
+   font-size: small;
+  }
+  .img-home{
+    width:100%;
+    height:600px;
+  }
+}
+
+
+
+
+@media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
+  .App{
+    background-color: blue !important;
+  }  
+  .img-home{
+    width:300px;
+    height: 500px;
+}
+}
+
+@media all and (width: 1024px) and (height: 768px) and (orientation:landscape){
+  .App{
+    background-color: blue !important;
+  } 
+  .img-home{
+    width:300px;
+    height: 500px;  
+}
+}
+/* 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .App {
+    background-color: blue;
+  }
+  .img-sizing{
+    width:100px;
+    height:100px;
+  }
+  .link-sizing{
+    word-wrap: break-word;
+  }
+  .btn-readmore{
+    padding: 10px;
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-left:35%;
+   justify-content:center;
+   font-size: small;
+  }
+  .img-home{
+    width:300px;
+    height: 500px;
+    
+  }
+ } */
 
 
 

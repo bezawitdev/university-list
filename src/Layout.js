@@ -106,7 +106,7 @@ console.log(state, 'testfirst')
     <Description location={location} 
     state={state}/>
     <AboutCountry />
-    <ImageDisplay />
+    {/* <ImageDisplay /> */}
     </div>
   );
 }

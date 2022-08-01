@@ -1,6 +1,8 @@
 function NoMatch(){
     return(
-        <div>Error Page</div>
+        <div className="error-page">
+           
+        </div>
     )
 }
 
